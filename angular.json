@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AppReceitas": {
+    "app-meat": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AppReceitas",
+            "outputPath": "dist/app-meat",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "AppReceitas:build"
+            "browserTarget": "app-meat:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "AppReceitas:build:production"
+              "browserTarget": "app-meat:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AppReceitas:build"
+            "browserTarget": "app-meat:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "AppReceitas:serve"
+            "devServerTarget": "app-meat:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "AppReceitas:serve:production"
+              "devServerTarget": "app-meat:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "AppReceitas"
+  "defaultProject": "app-meat"
 }

@@ -1,0 +1,19 @@
+.container{
+  background-color: #FF6347;
+  height: 66px;
+  padding-top: 6px;
+}
+
+#nome{
+  font-size: 22px;
+  color: #A52A2A	;
+}
+
+.canto{
+  background-color: #FF6347;
+}
+
+.abas{
+  font-size: 16px;
+  color: 	#8B0000;
+}
