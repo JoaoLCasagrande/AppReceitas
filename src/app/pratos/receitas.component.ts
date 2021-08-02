@@ -1,5 +1,5 @@
 import { ReceitasService } from './receitas.service';
-import { Receita } from './receita/receita.model';
+import { Receita } from './prato/prato.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReceitasComponent implements OnInit {
 
-  receitas : Receita[];
+  receitas : Prato[];
 
   constructor(private receitasService: ReceitasService) { }
 

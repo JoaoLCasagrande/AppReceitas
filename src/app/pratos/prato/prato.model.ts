@@ -1,4 +1,4 @@
-export interface Receita{
+export interface Prato{
   id: string
   nome: string
   desc: string
