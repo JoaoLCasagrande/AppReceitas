@@ -1,18 +1,18 @@
 import { Injectable } from '@angular/core';
-import { Receita } from './prato/prato.model';
+import { Prato } from './prato/prato.model';
 
 @Injectable({
   providedIn: 'root',
 })
-export class ReceitasService {
-  rests: Receita[] = [
+export class PratosService {
+  rests: Prato[] = [
     {
       id: 'couveflor',
       nome: 'Couve Flor Gratinada',
       desc: 'Uma boa opção para quem não é muito fã de verduras',
       tempoPreparo: '30 min',
       nota: 4.5,
-      imagem: 'assets/img/receitas/couveFlor.png',
+      imagem: 'assets/img/pratos/couveFlor.png',
     },
 
     {
@@ -21,7 +21,7 @@ export class ReceitasService {
       desc: 'Macarronada de domingo pra família',
       tempoPreparo: '60 min',
       nota: 4.5,
-      imagem: 'assets/img/receitas/macarronada.jpg',
+      imagem: 'assets/img/pratos/macarronada.jpg',
     },
 
     {
@@ -30,7 +30,7 @@ export class ReceitasService {
       desc: 'Ninguém resiste á um delicioso strogonoff',
       tempoPreparo: '20 min',
       nota: 4.5,
-      imagem: 'assets/img/receitas/strogosicha.jpg',
+      imagem: 'assets/img/pratos/strogosicha.jpg',
     },
 
     {
@@ -39,7 +39,7 @@ export class ReceitasService {
       desc: 'Rondelli, em italiano, "redondo, perfeito e completo" ',
       tempoPreparo: '45 min',
       nota: 4.5,
-      imagem: 'assets/img/receitas/rondelli.jpg',
+      imagem: 'assets/img/pratos/rondelli.jpg',
     },
 
     {
@@ -48,7 +48,7 @@ export class ReceitasService {
       desc: 'Quem diria que uma bolinha de massa seria tão saborosa',
       tempoPreparo: '30 min',
       nota: 4.5,
-      imagem: 'assets/img/receitas/inhoque.jpg',
+      imagem: 'assets/img/pratos/inhoque.jpg',
     },
 
     {
@@ -57,13 +57,13 @@ export class ReceitasService {
       desc: 'A famosa feijoada que todo mundo gosta',
       tempoPreparo: '140 min',
       nota: 4.0,
-      imagem: 'assets/img/receitas/feijoada.jpg',
+      imagem: 'assets/img/pratos/feijoada.jpg',
     },
   ];
 
   constructor() {}
 
-  receitas() : Prato[]{
+  pratos() : Prato[]{
     return this.rests;
   }
 }

@@ -1,12 +1,12 @@
-import { PratoComponent } from './receitas/prato/prato.component';
-import { ReceitasComponent } from './receitas/receitas.component';
+import { PratoComponent } from './pratos/prato/prato.component';
+import { PratosComponent } from './pratos/pratos.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
 
 const routes: Routes = [
   {path:'', component: InicioComponent},
-  {path:'receitas', component: ReceitasComponent},
+  {path:'pratos', component: PratosComponent},
   {path:'prato', component: PratoComponent}
 ];
 

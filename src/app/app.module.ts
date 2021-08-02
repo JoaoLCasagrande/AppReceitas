@@ -5,23 +5,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { ReceitasComponent } from './receitas/receitas.component';
-import { PratoComponent } from './receitas/prato/prato.component';
-import { ReceitasService } from './receitas/receitas.service';
+import { PratosComponent } from './pratos/pratos.component';
+import { PratoComponent } from './pratos/prato/prato.component';
+import { PratosService } from './pratos/pratos.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
     InicioComponent,
-    ReceitasComponent,
+    PratosComponent,
     PratoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ReceitasService],
+  providers: [PratosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
