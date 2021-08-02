@@ -17,3 +17,8 @@
   font-size: 16px;
   color: 	#8B0000;
 }
+
+.main-header{
+  position: fixed;
+  width: 100%;
+}

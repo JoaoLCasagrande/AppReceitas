@@ -1,9 +1,8 @@
 .card{
-  background-color: #ffffff;
   width: 400px;
   height: 300px;
   margin-left: 50px;
-  margin-bottom: 120px;
+  margin-bottom: 160px;
 }
 
 .card-title{
@@ -32,6 +31,8 @@ p{
 
 .card-body{
   background-color: #ffffff;
+  border: 5px solid #000000;
+  border-radius: 5px;
 }
 
 #imagem{

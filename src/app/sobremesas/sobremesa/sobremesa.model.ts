@@ -1,4 +1,4 @@
-export interface Prato{
+export interface Sobremesa{
   id: string
   nome: string
   desc: string
