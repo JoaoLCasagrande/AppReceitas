@@ -9,12 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PratosComponent implements OnInit {
 
-  pratos : Prato[];
+  pratos : Prato[] = [];
 
   constructor(private pratosService: PratosService) { }
 
   ngOnInit(): void {
-    this.pratos = this.pratosService.pratos();
+    this.pratosService.pratos().subscribe(pratos => {
+      this.pratos = pratos;
+    });
 
   }
 
