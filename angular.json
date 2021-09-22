@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-meat"
+    }
+  },
+  "defaultProject": "app-meat",
+  "cli": {
+    "analytics": false
+  }
 }

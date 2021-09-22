@@ -13,6 +13,8 @@ import { PratosService } from './pratos/pratos.service';
 import { SobremesasComponent } from './sobremesas/sobremesas.component';
 import { SobremesaComponent } from './sobremesas/sobremesa/sobremesa.component';
 import { SobremesasService } from './sobremesas/sobremesas.service';
+import { PratosDetailComponent } from './pratos-detail/pratos-detail.component';
+import { SobremesasDetailComponent } from './sobremesas-detail/sobremesas-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { SobremesasService } from './sobremesas/sobremesas.service';
     PratosComponent,
     PratoComponent,
     SobremesasComponent,
-    SobremesaComponent
+    SobremesaComponent,
+    PratosDetailComponent,
+    SobremesasDetailComponent
   ],
   imports: [
     BrowserModule,
