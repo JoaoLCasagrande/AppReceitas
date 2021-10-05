@@ -1,6 +1,7 @@
 .box-img-detail{
-    width: 350px;
-    height: 200px;
+    width: 660px;
+    height: 360px;
+    margin-left: 160px;
 }
 
 .col-sm-9{
@@ -9,5 +10,18 @@
 }
 
 .tit{
-    color: #FF6347;
+  color: #FF6347;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.titulo{
+    color: #A52A2A;
+    font-size: 28px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#mod{
+  margin-top: 10px;
 }
