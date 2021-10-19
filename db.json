@@ -17,7 +17,9 @@
       "desc": "Macarronada de domingo pra família",
       "tempoPreparo": "60 min",
       "nota": 4.5,
-      "imagem": "assets/img/pratos/macarronada.jpg"
+      "imagem": "assets/img/pratos/macarronada.jpg",
+      "modo_preparo": "Macarronada",
+      "ingredientes": "2 xícaras de leite; 2 colheres de sopa de manteiga;"
     },
 
     {
@@ -26,7 +28,9 @@
       "desc": "Ninguém resiste á um delicioso strogonoff",
       "tempoPreparo": "20 min",
       "nota": 4.5,
-      "imagem": "assets/img/pratos/strogosicha.jpg"
+      "imagem": "assets/img/pratos/strogosicha.jpg",
+      "modo_preparo": "Couve flor tá boa",
+      "ingredientes": "2 xícaras de leite; 2 colheres de sopa de manteiga;"
     },
 
     {
@@ -35,7 +39,9 @@
       "desc": "Rondelli, em italiano, redondo, perfeito e completo" ,
       "tempoPreparo": "45 min",
       "nota": 4.5,
-      "imagem": "assets/img/pratos/rondelli.jpg"
+      "imagem": "assets/img/pratos/rondelli.jpg",
+      "modo_preparo": "Couve flor tá boa",
+      "ingredientes": "2 xícaras de leite; 2 colheres de sopa de manteiga;"
     },
 
     {
@@ -44,7 +50,9 @@
       "desc": "Uma simples bolinha de massa, mas tão saborosa!",
       "tempoPreparo": "30 min",
       "nota": 4.5,
-      "imagem": "assets/img/pratos/inhoque.jpg"
+      "imagem": "assets/img/pratos/inhoque.jpg",
+      "modo_preparo": "Couve flor tá boa",
+      "ingredientes": "2 xícaras de leite; 2 colheres de sopa de manteiga;"
     },
 
     {
@@ -53,7 +61,9 @@
       "desc": "A famosa feijoada que todo mundo gosta",
       "tempoPreparo": "140 min",
       "nota": 4.0,
-      "imagem": "assets/img/pratos/feijoada.jpg"
+      "imagem": "assets/img/pratos/feijoada.jpg",
+      "modo_preparo": "Couve flor tá boa",
+      "ingredientes": "2 xícaras de leite; 2 colheres de sopa de manteiga;"
     }
   ],
 
