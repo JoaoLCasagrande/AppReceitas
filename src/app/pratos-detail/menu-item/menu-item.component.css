@@ -1,0 +1,34 @@
+.menu-item-info-box{
+  margin: 10px 100px 10px 0px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-right: 10px;
+}
+
+img{
+  margin: 20px 10px 10px 10px;
+  height: 160px;
+  width: 180px;
+  position:absolute;
+}
+
+.menu-item-info-box-content{
+  margin-left: 200px;
+  padding-top: 20px;
+}
+
+.menu-item-info-box-text{
+  font-weight: bold;
+  font-size: 22px;
+  font-family:Impact, 'Arial Narrow Bold', sans-serif;
+  color: #FF6347;
+}
+
+.menu-item-info-box-detail{
+  font-size: 18px;
+}
+
+.menu-item-info-box-price{
+  font-weight: bold;
+}

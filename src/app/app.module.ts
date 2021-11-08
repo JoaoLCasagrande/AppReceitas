@@ -15,8 +15,9 @@ import { SobremesaComponent } from './sobremesas/sobremesa/sobremesa.component';
 import { SobremesasService } from './sobremesas/sobremesas.service';
 import { PratosDetailComponent } from './pratos-detail/pratos-detail.component';
 import { SobremesasDetailComponent } from './sobremesas-detail/sobremesas-detail.component';
-import { ModoPreparoComponent } from './pratos-detail/modo-preparo/modo-preparo.component';
-import { IngredientesComponent } from './pratos-detail/ingredientes/ingredientes.component';
+import { MenuComponent } from './pratos-detail/menu/menu.component';
+import { MenuItemComponent } from './pratos-detail/menu-item/menu-item.component';
+import { ShoppingCartComponent } from './pratos-detail/shopping-cart/shopping-cart.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +30,9 @@ import { IngredientesComponent } from './pratos-detail/ingredientes/ingredientes
     SobremesaComponent,
     PratosDetailComponent,
     SobremesasDetailComponent,
-    ModoPreparoComponent,
-    IngredientesComponent
+    MenuComponent,
+    MenuItemComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
