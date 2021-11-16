@@ -16,9 +16,9 @@ export class PratosDetailComponent implements OnInit {
     private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.pratosService.pratosById(this.route.snapshot.params['id'])
+    this.pratosService.pratoById(this.route.snapshot.params['id'])
     .subscribe(pratos => {
-      this.pratos - pratos;
+      this.pratos = pratos;
     })
   }
 
