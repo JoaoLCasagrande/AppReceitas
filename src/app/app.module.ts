@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -18,6 +19,7 @@ import { SobremesasDetailComponent } from './sobremesas-detail/sobremesas-detail
 import { MenuComponent } from './pratos-detail/menu/menu.component';
 import { MenuItemComponent } from './pratos-detail/menu-item/menu-item.component';
 import { ShoppingCartComponent } from './pratos-detail/shopping-cart/shopping-cart.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -36,8 +38,11 @@ import { ShoppingCartComponent } from './pratos-detail/shopping-cart/shopping-ca
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ToastrModule.forRoot(),
+     
   ],
   providers: [PratosService,
              SobremesasService
