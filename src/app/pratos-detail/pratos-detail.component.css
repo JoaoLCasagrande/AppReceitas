@@ -1,22 +1,22 @@
 .box-img-detail{
-    width: 660px;
-    height: 360px;
-    margin-left: 160px;
+  width: 660px;
+  height: 360px;
+  margin-left: 160px;
 }
 
 .col-sm-9{
-    font-size: 16px;
-    padding-left: 110px;
+  font-size: 16px;
+  padding-left: 110px;
 }
 
 .titulo{
-    color: #A52A2A;
-    font-size: 28px;
-    margin-top: 5px;
-    text-align: center;
-    font-weight: bold;
+  color: #A52A2A;
+  font-size: 28px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
 }
 
 #mod{
-  margin-top: 10px;
+margin-top: 10px;
 }
