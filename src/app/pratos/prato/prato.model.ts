@@ -5,4 +5,6 @@ export interface Prato{
   tempoPreparo: string
   nota: number
   imagem: string
+  ingredientes: string;
+  modo_preparo: string;
 }

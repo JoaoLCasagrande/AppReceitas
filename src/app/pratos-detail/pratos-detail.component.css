@@ -1,7 +1,9 @@
 .box-img-detail{
-  width: 660px;
-  height: 360px;
-  margin-left: 160px;
+  width: 50%;
+  border-radius: 5px;
+  border:#000000 2px solid;
+  margin-bottom: 8px;
+  margin-left: 10px;
 }
 
 .col-sm-9{
@@ -9,14 +11,19 @@
   padding-left: 110px;
 }
 
+.alinharcentro {
+  text-align: center;
+}
+
 .titulo{
-  color: #A52A2A;
+  color: #8B0000;
   font-size: 28px;
   margin-top: 5px;
+  margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
 }
 
-#mod{
-margin-top: 10px;
+.IngMod{
+background-color: #ffffff;
 }

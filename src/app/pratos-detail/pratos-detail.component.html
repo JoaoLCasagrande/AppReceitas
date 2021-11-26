@@ -18,9 +18,28 @@
           <!-- /.box-header -->
           <div class="box-body">
 
-            <h1 class="titulo">Couve Flor Gratinada</h1>
-            <img class="box-img-detail" src="assets/img/pratos/couveFlor.png" />
+            <h1 class="titulo">{{pratos.nome}}</h1>
+
+            <div class="row">
+              <div class="col-sm-6 alinharcentro">
+                <img class="box-img-detail" [src]="pratos.imagem" />
+              </div>
+
+              <div class="col-sm-6" >
+                <dl>
+                  <dt>Nota:</dt>
+                  <dd>{{pratos.nota}}</dd>
+                  <dt>Tempo de Preparo:</dt>
+                  <dd>{{pratos.tempoPreparo}}</dd>
+                  <dt>Descrição:</dt>
+                  <dd>{{pratos.desc}}</dd>
+                </dl>
+              </div>
+
+          </div>
+
            </div>
+
           <!-- /.box-body -->
         </div>
       </div>
@@ -28,6 +47,28 @@
 
   </div>
 
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box box-solid">
+        <div class="box-body">
+
+          <div class="ing">
+            <h2>Ingredientes</h2>
+            <p>{{pratos.ingredientes}}</p>
+          </div>
+
+          <div class="modP">
+            <h2>Modo de Preparo</h2>
+            <p>{{pratos.modo_preparo}}</p>
+          </div>
+          
+         </div>
+        <!-- /.box-body -->
+      </div>
+    </div>
+    <!-- /.col-xs-12 -->
+
+</div>
 
   <div class="row">
   <app-menu></app-menu>
